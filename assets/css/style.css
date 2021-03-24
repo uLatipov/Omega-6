@@ -118,4 +118,50 @@ a {
     font-style: normal;
 }
 
+.nav {
+    background: #F6F6F8;
+}
 
+.nav-omega {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.750316px;
+    color: #19191B; 
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    transition: 0.5s all;
+}
+
+.nav-link {
+    color: #5454D4;
+}
+
+.nav-get-link {}
+
+.nav-item-list {}
+
+/* end nav  */
+
+.header-title {}
+
+.header-box {}
+
+.header-title {}
+
+.header-item {}
+
+.header-item-img {}
+
+.header-list-name {}
+
+.header-link {}
+
+.header-sublink-txt {}
+
+.header-sublink {}
