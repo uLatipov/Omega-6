@@ -638,3 +638,83 @@ a {
     color: #696871; 
     margin-top: 18px;
 }
+
+
+/* end pepolpe  */
+
+.rating-area {
+	overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: #F04037;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: #F04037;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: #F04037;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.readers-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reader-item{
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+    border-radius: 10px;
+    padding: 37px;
+}
+
+.reader-text{
+
+}
+
+.reader-item-footer{
+
+}
+
+.reader-img{
+
+}
+
+.reader-item-footer-right{
+
+}
+
+.rader-name{
+
+}
+
+.reader-from{
+
+}
