@@ -611,3 +611,30 @@ a {
     background-color: #413E65;
     border: 1px solid #ffffff;    
 }
+
+
+/* end ad continer  */
+
+.people-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.pepople-percent{
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #5454D4;
+}
+
+.people-text{
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;  
+    color: #696871; 
+    margin-top: 18px;
+}
