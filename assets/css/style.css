@@ -464,3 +464,87 @@ a {
     letter-spacing: -0.500211px;
     color: #696871;
 }
+
+
+/* end chapter  */
+
+.learn {
+    background: #F2F2F3;
+    padding-bottom: 105px;
+    padding-top: 90px;
+}
+
+.learn-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.learn-info {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    margin-top: 18px;
+}
+
+.learn-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.learn-item {
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    height: 87px;
+    align-items: center;
+    padding: 0 19px;
+    cursor: pointer;
+    transition: transform 0.5s ease-out, box-shadow 0.5s;
+}
+
+.learn-item1 {
+    display: inline-block;
+    transform: rotate3d(1, 1, 1, 0deg), scale3d(20, 20, 20);
+    transition: transform 0.5s ease;
+}
+
+.learn-item1:hover {
+    transform: rotate3d(-5, 1, 1, 10deg);
+}
+
+.learn-item1:hover .learn-item {
+    box-shadow: 10px 10px 30px 0px #9b9b9b;
+
+}
+
+/* 
+.learn-item:hover{
+    transform-style: preserve-3d;
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 20px 0px  rgb(204, 203, 203);
+} */
+
+.learn-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 17px;
+}
+
+.learn-item-name {
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+}
