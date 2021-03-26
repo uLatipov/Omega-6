@@ -1140,3 +1140,11 @@ form {
 .slider__control{
     background-color: #fff;
 }
+
+.learn-item-name, .ad-link, .button-form, .footer-link-book{
+    font-family: 'Circular Std', sans-serif;
+}
+
+.rating-area{
+    margin-bottom: 15px;
+}

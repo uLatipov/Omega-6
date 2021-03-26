@@ -214,3 +214,88 @@
     }
 }
 
+
+@media (max-width: 660px){
+    body .nav > .container{
+        width: 550px ;
+    }
+
+    body .container{
+        width: 480px;
+    }
+    .slider .slider__item-content{
+        padding: 40px 70px;
+    }
+
+    body .chapter-title, body .header-title, body .learn-title, body .pepople-percent, body .reader-title, body .author-title, body .pricing-title, body .pricing_price, body .footer-title{
+        font-size: 50px;
+    }
+    body .people-text, body .reader-text, body .pricing-info, body .pricing-plus, body .footer-info, body .header-list-name, body .client-review-italic, body .chapters-info, body .learn-info, body .slider_text{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 460px){
+    body .nav > .container{
+        width: 95%;
+    }
+
+    body .container{
+        width: 85%;
+    }
+    .slider .slider__item-content{
+        padding: 20px 30px;
+    }
+    .ad .left-ad{
+        width: 100%;
+    }
+    body .pricing-item{
+        width: 100%;
+    }
+    body .faq{
+        margin-top: 50px;
+    }
+    .faq .faq-item{
+        width: 100%;
+    }
+    .nav .nav-item, .nav .nav-get{
+        display: none;
+    }
+
+    body .clinet-review-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .client-review .client-review-italic{
+        margin-top: 15px;
+    }
+
+    .client-review .client-review-right{
+        align-items: center;
+    }
+
+    .chater-list .chapter-item{
+        width: 100%;
+    }
+    .learn .learn-item{
+        margin: 5px 0;
+    }
+    body .ad-link{
+        display: block;
+    }
+    body .ad{
+        padding: 10px;
+    }
+
+    body .author-box{
+        width: 100%;
+    }
+
+    body .footer-links-list{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
+}
