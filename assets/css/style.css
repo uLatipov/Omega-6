@@ -1037,7 +1037,7 @@ form {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -0.750316px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
@@ -1048,6 +1048,95 @@ form {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.faq-bottom{
+.faq-bottom {
     margin-bottom: 80px;
+}
+
+
+.footer-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0;
+}
+
+.omega-footer {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+}
+
+.footer-links-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link {
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 38px;
+    text-align: right;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+}
+
+.footer-title {
+    font-size: 60px;
+    line-height: 70px;/ letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.footer-info {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    margin-top: 18px;
+}
+
+.footer-link-book {
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #FFFFFF;
+    padding: 17px 60px;
+    background: #F0544C;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.footer-link-book:hover {
+    color: #F0544C;
+    background-color: #fff;
+}
+
+.footer>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 94px 0;
+}
+
+.footer-hr {
+    border: 1px solid #EAE9F2;
+}
+
+.slider__control{
+    background-color: #fff;
 }
