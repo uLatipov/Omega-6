@@ -890,6 +890,7 @@ a {
 .prising-list {
     display: flex;
     justify-content: space-between;
+    margin-top: 55px;
 }
 
 .pricing-item {
@@ -939,7 +940,7 @@ a {
     transition: 0.5s all;
 }
 
-.email-input:focus::placeholder{
+.email-input:focus::placeholder {
     letter-spacing: 0;
 }
 
@@ -1011,4 +1012,42 @@ form {
     left: 25px;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 115px;
+}
+
+.faq-item {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.faq-icon {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 20px;
+}
+
+.faq-name {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.750316px;
+    color: #FFFFFF; 
+    margin-bottom: 20px;
+}
+
+.faq-info {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.faq-bottom{
+    margin-bottom: 80px;
 }
